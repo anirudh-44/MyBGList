@@ -34,5 +34,17 @@ namespace MyBGList.Controllers
                 }
             };
         }
+
+        /*[HttpGet(Name = "GettBoardGame")]
+        public IEnumerable<BoardGame> GettBoardGame()
+        {
+            return new[] {
+                new BoardGame() {
+                    Id = 1,
+                    Name = "Axis & Allies",
+                    Year = 1981
+                }
+            };
+        }*/
     }
 }
